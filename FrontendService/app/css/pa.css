@@ -1,0 +1,23 @@
+.portfolio-modal h4,
+.portfolio-modal p {
+    text-align: left;
+}
+
+li.msg-advisor {
+    background-color: #eeeeee;
+    text-align: left;
+}
+
+li.msg-you {
+    background-color: #d9edf7;
+    text-align: right;
+}
+
+ul.chat-screen {
+    height: 500px;
+    overflow: auto;
+}
+
+.input-group {
+    margin-top: 50px;
+}

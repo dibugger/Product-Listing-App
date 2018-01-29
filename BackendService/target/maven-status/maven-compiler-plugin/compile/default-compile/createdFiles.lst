@@ -1,0 +1,8 @@
+GetByUserServlet.class
+SearchServlet.class
+DeleteServlet.class
+GetAllServlet.class
+UpdateServlet.class
+MainSite.class
+UploadServlet.class
+GetByPriceServlet.class
