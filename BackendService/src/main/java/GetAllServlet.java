@@ -39,6 +39,7 @@ public class GetAllServlet extends HttpServlet {
     @Override
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response)
             throws ServletException, IOException {
+        response.addHeader("Access-Control-Allow-Origin", "*");
         String query = "SELECT * from " + TABLE_NAME + " ORDER BY date_last_updated DESC;";
         Statement statement = null;
         try {

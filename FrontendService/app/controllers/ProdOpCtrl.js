@@ -102,7 +102,7 @@ app.controller('prodOpCtrl', function ($scope, $http) {
             alert('Product ' + $scope.name + ' updated successfully!')
         })
     };
-    
+
     $scope.getProductsByPrice = function (min, max) {
         $http({
             method: "post",
@@ -118,7 +118,7 @@ app.controller('prodOpCtrl', function ($scope, $http) {
         })
     };
 
-    $scope.orderBy = function(x) {
+    $scope.orderBy = function (x) {
         $scope.myOrderBy = x;
     }
 });
